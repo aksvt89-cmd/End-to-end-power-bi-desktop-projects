@@ -2,9 +2,9 @@ power-bi-desktop-projects Manufacturing-BI-Solution
 
 End-to-end Business Intelligence solution simulating ERP data for global manufacturing operations using Python, SQL, and Power BI. This project simulates an end-to-end Business Intelligence (BI) solution for a global manufacturing enterprise. It mirrors how real organizations use ERP systems (such as Microsoft Dynamics 365 or SAP) to track plant-level performance, production orders, machine downtime, inventory movement, quality control, and cost tracking across regions.
 
-🚧 Project Status: In Progress — dataset generation complete; data modeling and dashboards in development.
+ Project Status: In Progress — dataset generation complete; data modeling and dashboards in development.
 
-🧭 Table of Contents
+Table of Contents
 
 Project Overview
 
@@ -20,7 +20,7 @@ Folder Structure
 
 Next Steps
 
-📦 Project Overview
+ Project Overview
 
 This solution aims to replicate a realistic manufacturing BI scenario by:
 
@@ -40,7 +40,7 @@ Fact tables: Production Orders, Quality Logs, Machine Downtime Events, Cost Jour
 
 The data generator script is located in the /notebooks directory under 01_data_generation.ipynb.
 
-💾 Output files are saved in the /datasets/ folder.
+Output files are saved in the /datasets/ folder.
 
 🗃️ Data Model Schema
 
@@ -50,9 +50,7 @@ SQL schema file (under /sql/schema.sql) is optimized for Azure SQL or PostgreSQL
 
 Foreign key constraints and indexing for performance and joins
 
-📌 Schema highlights best practices in ERP BI data warehousing.
-
-📊 Business Intelligence Dashboards
+Schema highlights best practices in ERP BI data warehousing. Business Intelligence Dashboards
 
 The final dashboard will include:
 
@@ -68,7 +66,7 @@ Inventory Movement by Plant & Product
 
 Files will be available in the /powerbi folder as .pbix or .pbit templates.
 
-🧰 Technologies Used
+Technologies Used
 
 Python – Data generation with Faker, Pandas, NumPy
 
